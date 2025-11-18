@@ -20,7 +20,7 @@ function App() {
   return (
     <>
     
-    <BrowserRouter>
+    
     <Navbar />
    
     <Routes>
@@ -30,7 +30,7 @@ function App() {
        <Route path="*" element={<Error404 />} />
     </Routes>
      <Footer />
-    </BrowserRouter>
+    
     </>
   )
 }
