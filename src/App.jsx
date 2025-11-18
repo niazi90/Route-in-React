@@ -7,8 +7,10 @@ import About from './pages/about/about'
 import Contact from './pages/contact/contact'
 
 import Error404 from './pages/error/error404'
-import Navbar from './components/Nav/Navbarr'
-import Footer from './components/Footer/Footerr'
+import Navbar from './components/nav/navbar'
+import Footer from './components/footer/Footer'
+
+
 
 
 
@@ -19,7 +21,7 @@ function App() {
     <>
     
     <BrowserRouter>
-    <Navbar/>
+    <Navbar />
    
     <Routes>
       <Route path='/' element={<Home/>} />
