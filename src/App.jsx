@@ -5,7 +5,7 @@ import './App.css'
 import Home from './pages/home/home'
 import About from './pages/about/about'
 import Contact from './pages/contact/contact'
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footerr'
 import Error404 from './pages/error/error404'
 import Navbar from './components/Nav/Navbarr'
 
