@@ -1,12 +1,13 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import Navbar from './components/nav/navbar'
+
 import Home from './pages/home/home'
 import About from './pages/about/about'
 import Contact from './pages/contact/contact'
-import Footer from './components/footer/Footer'
+import Footer from './components/Footer/Footer'
 import Error404 from './pages/error/error404'
+import Navbar from './components/nav/navbar'
 
 function App() {
   
@@ -15,7 +16,7 @@ function App() {
     <>
     
     <BrowserRouter>
-    <Navbar />
+    <Navbar/>
    
     <Routes>
       <Route path='/' element={<Home/>} />
