@@ -1,19 +1,11 @@
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-
-
+import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
-
-
-import Navbar from './components/nav/Navbar'
-import Footer from './components/footer/Footer'
-import Product from './Pages/home/Product'
-import Home from './pages/home/home'
+import Product from './Pages/Product'
 import Error404 from './Pages/Error404'
-
-
 
 
 
