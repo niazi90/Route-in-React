@@ -6,13 +6,15 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Product from './Pages/Product'
 import Error404 from './Pages/Error404'
+import Navbar from './components/nav/Navbar'
+import Footer from './components/footer/Footer'
 
 
 
 function App() {
   return (
     <>
-    <BrowserRouter>
+    
 
       <Navbar />
 
@@ -25,7 +27,7 @@ function App() {
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />
-</BrowserRouter>
+
     </>
   )
 }
