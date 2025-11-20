@@ -2,20 +2,29 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 
-import Home from './pages/home/Home'
-import About from './pages/about/About'
-import Contact from './pages/contact/Contact'
 
-import Error404 from './pages/error/Error404'
+import About from './Pages/About'
+import Contact from './Pages/Contact'
+
+
 import Navbar from './components/nav/Navbar'
 import Footer from './components/footer/Footer'
-import Product from './pages/product/Product'
+import Product from './Pages/home/Product'
+import Home from './pages/home/home'
+import Error404 from './Pages/Error404'
+
+
+
+
+
 function App() {
   return (
     <>
+
       <Navbar />
+
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         {/* dynamic routing */}
@@ -23,6 +32,7 @@ function App() {
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />
+
     </>
   )
 }
