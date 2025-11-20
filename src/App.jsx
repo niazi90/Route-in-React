@@ -10,17 +10,10 @@ import Error404 from './pages/error/Error404'
 import Navbar from './components/nav/Navbar'
 import Footer from './components/footer/Footer'
 import Product from './pages/product/Product'
-
-
-
-
-
 function App() {
   return (
     <>
-
       <Navbar />
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -30,7 +23,6 @@ function App() {
         <Route path="*" element={<Error404 />} />
       </Routes>
       <Footer />
-
     </>
   )
 }
